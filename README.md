@@ -18,7 +18,7 @@ The demo is in Amizour, Bejaia, Algeria.
 
 
 ```bash
-git clone https://github.com/yourusername/astar-car-navigation.git
+git clone https://github.com/ZermatAbdenour/astar-car-navigation.git
 ```
 2. Open the project in the UnityEditor .
 3. Run the Demo Scene
