@@ -4,7 +4,7 @@ This project implements the A* (A-star) algorithm in C# to navigate a car from a
 
 ## Features
 
-- ** AStar Algorithm Implementation**: The project provides a C# implementation from scratch of the A* algorithm.
+- **AStar Algorithm Implementation**: The project provides a C# implementation from scratch of the A* algorithm.
 - **Node-based Map**: The navigation environment is represented as a graph where each node represents a location and edges represent roads extracted from OpenStreetMap data.
 - **3D Model Visualization**: The project integrates 3D models of buildings and landmarks from CADMapper for visualization.
 - **Start and End Point Definition**: Users can define the start and end points on the map for the car to navigate between.
