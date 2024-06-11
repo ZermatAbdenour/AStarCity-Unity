@@ -60,24 +60,6 @@ public class AStarAlgorithmController : MonoBehaviour
         string json = File.ReadAllText(path);
         UsedGraphData = JsonUtility.FromJson<GraphData>(json);
     }
-    private void Start()
-    {
-
-
-
-        /*   for (int i = 0; i < UsedGraphData.nodes.Length; i++)
-           {
-               GameObject newPoint = Instantiate(Prefab, new Vector3(), Quaternion.identity, Parent);
-               newPoint.transform.localPosition = ApplyTransformer(UsedGraphData.nodes[i].x, UsedGraphData.nodes[i].y);
-
-           }*/
-
-    }
-
-    private void Update()
-    {
-
-    }
 
     [System.Serializable]
     public class ExploredNode
@@ -169,15 +151,6 @@ public class AStarAlgorithmController : MonoBehaviour
 
 
         return shortestPath.ToArray();
-        /*
-        print(string.Join(", ", shortestPath));
-
-        for(int i = 0; i < shortestPath.Count; i++)
-        {
-            GameObject newPoint = Instantiate(Prefab, new Vector3(), Quaternion.identity, Parent);
-            newPoint.transform.localPosition = ApplyTransformer(GetNodeById(UsedGraphData,shortestPath[i]).x, GetNodeById(UsedGraphData, shortestPath[i]).y);
-        }
-        */
     }
 
     public List<link> GetConnectedLinks(int nodeid)
